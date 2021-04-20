@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDealership", "CarDealership.csproj", "{CCB3A368-7E7D-45FB-80DF-7EC20C471CD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "..\IntegrationTests\IntegrationTests.csproj", "{098C9533-CF4C-4A2F-A266-C59D2449F448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB3A368-7E7D-45FB-80DF-7EC20C471CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB3A368-7E7D-45FB-80DF-7EC20C471CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB3A368-7E7D-45FB-80DF-7EC20C471CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB3A368-7E7D-45FB-80DF-7EC20C471CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098C9533-CF4C-4A2F-A266-C59D2449F448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098C9533-CF4C-4A2F-A266-C59D2449F448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098C9533-CF4C-4A2F-A266-C59D2449F448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098C9533-CF4C-4A2F-A266-C59D2449F448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CB6855A-13AC-4BFC-9C1F-AF523DB05019}
+	EndGlobalSection
+EndGlobal
