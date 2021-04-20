@@ -1,7 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+
 
 namespace CarDealership.Models
 {
+
     public class Car : ModelBaseWithGuid
     {
         [Required]
@@ -13,7 +16,8 @@ namespace CarDealership.Models
         [Required]
         public int Year { get; set; }
 
-        public int Price { get; set; }
+        // CHANGED TO DECIMAL
+        public decimal Price { get; set; }
 
         public int Horsepower { get; set; }
 
